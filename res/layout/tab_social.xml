@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:id="@id/textViewEventViewName" android:background="#ffff8800" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Social Achievements" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <CheckBox android:id="@id/checkBoxMetroPCSAchieve" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Visit the Metro PCS Stage" android:layout_weight="1.0" />
+                    <ImageButton android:id="@id/imageButtonMetroPCS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/uicamerabutton" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <CheckBox android:id="@id/checkBoxBudLightAchieve" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Visit the Bud Light Stage" android:layout_weight="1.0" />
+                    <ImageButton android:id="@id/imageButtonBudLight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/uicamerabutton" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <CheckBox android:id="@id/checkBoxTasteOfTexasAchieve" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Visit the Food Court" android:layout_weight="1.0" />
+                    <ImageButton android:id="@id/imageButtonTasteOfTexas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/uicamerabutton" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <CheckBox android:id="@id/checkBoxCourtyardStageAchieve" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Visit the Courtyard Stage" android:layout_weight="1.0" />
+                    <ImageButton android:id="@id/imageButtonCourtyard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/uicamerabutton" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <CheckBox android:id="@id/checkBoxViewpointStageAchieve" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Visit the Viewpoint Stage" android:layout_weight="1.0" />
+                    <ImageButton android:id="@id/imageButtonViewpoint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/uicamerabutton" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/linearLayoutTwitterLoadingLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center_vertical" android:id="@id/textViewTwitterLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Loading Twitter Feed" />
+                <ProgressBar android:id="@id/progressBarTwitterLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:progress="30" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutTwitterHolder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="abs__home" />
+    <item type="id" name="abs__up" />
+    <item type="id" name="abs__action_menu_divider" />
+    <item type="id" name="abs__action_menu_presenter" />
+    <item type="id" name="abs__progress_circular" />
+    <item type="id" name="abs__progress_horizontal" />
+    <item type="id" name="progress" />
+    <item type="id" name="secondaryProgress" />
+    <item type="id" name="edit" />
+    <item type="id" name="leftSpacer" />
+    <item type="id" name="rightSpacer" />
+    <item type="id" name="typeface" />
+    <item type="id" name="increment" />
+    <item type="id" name="decrement" />
+    <item type="id" name="empty" />
+    <item type="id" name="abs__action_bar_title">false</item>
+    <item type="id" name="abs__action_bar_subtitle">false</item>
+    <item type="id" name="abs__imageButton">false</item>
+    <item type="id" name="abs__textButton">false</item>
+    <item type="id" name="abs__action_mode_close_button">false</item>
+    <item type="id" name="abs__activity_chooser_view_content">false</item>
+    <item type="id" name="abs__expand_activities_button">false</item>
+    <item type="id" name="abs__image">false</item>
+    <item type="id" name="abs__default_activity_button">false</item>
+    <item type="id" name="abs__list_item">false</item>
+    <item type="id" name="abs__icon">false</item>
+    <item type="id" name="abs__title">false</item>
+    <item type="id" name="abs__titleDivider">false</item>
+    <item type="id" name="abs__content">false</item>
+    <item type="id" name="abs__checkbox">false</item>
+    <item type="id" name="abs__shortcut">false</item>
+    <item type="id" name="abs__radio">false</item>
+    <item type="id" name="abs__action_bar_container">false</item>
+    <item type="id" name="abs__action_bar">false</item>
+    <item type="id" name="abs__action_context_bar">false</item>
+    <item type="id" name="abs__split_action_bar">false</item>
+    <item type="id" name="abs__action_mode_bar_stub">false</item>
+    <item type="id" name="abs__action_mode_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="abs__search_bar">false</item>
+    <item type="id" name="abs__search_badge">false</item>
+    <item type="id" name="abs__search_button">false</item>
+    <item type="id" name="abs__search_edit_frame">false</item>
+    <item type="id" name="abs__search_mag_icon">false</item>
+    <item type="id" name="abs__search_plate">false</item>
+    <item type="id" name="abs__search_src_text">false</item>
+    <item type="id" name="abs__search_close_btn">false</item>
+    <item type="id" name="abs__submit_area">false</item>
+    <item type="id" name="abs__search_go_btn">false</item>
+    <item type="id" name="abs__search_voice_btn">false</item>
+    <item type="id" name="linearLayoutMainTabHolder">false</item>
+    <item type="id" name="parentPanel">false</item>
+    <item type="id" name="topPanel">false</item>
+    <item type="id" name="titleDividerTop">false</item>
+    <item type="id" name="title_template">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="alertTitle">false</item>
+    <item type="id" name="titleDivider">false</item>
+    <item type="id" name="contentPanel">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="customPanel">false</item>
+    <item type="id" name="custom">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="buttonPanelTopDivivder">false</item>
+    <item type="id" name="button2">false</item>
+    <item type="id" name="button3">false</item>
+    <item type="id" name="button1">false</item>
+    <item type="id" name="progress_percent">false</item>
+    <item type="id" name="progress_number">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="month_name">false</item>
+    <item type="id" name="day_names">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="datePicker">false</item>
+    <item type="id" name="pickers">false</item>
+    <item type="id" name="month">false</item>
+    <item type="id" name="day">false</item>
+    <item type="id" name="year">false</item>
+    <item type="id" name="calendar_view">false</item>
+    <item type="id" name="textViewHeaderListItemName">false</item>
+    <item type="id" name="imageViewListItem">false</item>
+    <item type="id" name="textViewListItemName">false</item>
+    <item type="id" name="textViewListItemLocation">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="textViewFoodHeaderName">false</item>
+    <item type="id" name="imageViewFoodListLayoutItem">false</item>
+    <item type="id" name="textViewFoodListLayoutName">false</item>
+    <item type="id" name="textViewFoodListLayoutDescription">false</item>
+    <item type="id" name="left_icon">false</item>
+    <item type="id" name="progressContainer">false</item>
+    <item type="id" name="listContainer">false</item>
+    <item type="id" name="internalEmpty">false</item>
+    <item type="id" name="textViewInfoTitle">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="numberpicker_input">false</item>
+    <item type="id" name="summary">false</item>
+    <item type="id" name="widget_frame">false</item>
+    <item type="id" name="edittext_container">false</item>
+    <item type="id" name="seekbar">false</item>
+    <item type="id" name="headers">false</item>
+    <item type="id" name="list_footer">false</item>
+    <item type="id" name="prefs_frame">false</item>
+    <item type="id" name="prefs">false</item>
+    <item type="id" name="button_bar">false</item>
+    <item type="id" name="back_button">false</item>
+    <item type="id" name="skip_button">false</item>
+    <item type="id" name="next_button">false</item>
+    <item type="id" name="switchWidget">false</item>
+    <item type="id" name="select_dialog_listview">false</item>
+    <item type="id" name="checkBoxAchievement">false</item>
+    <item type="id" name="imageButtonAchievementTakePicture">false</item>
+    <item type="id" name="linearLayoutCameraViewParent">false</item>
+    <item type="id" name="LinearLayoutCameraControls">false</item>
+    <item type="id" name="surfaceViewCamera">false</item>
+    <item type="id" name="linearLayoutCameraOverlayViewParent">false</item>
+    <item type="id" name="surfaceViewCameraOverlay">false</item>
+    <item type="id" name="imageButtonCapturePicture">false</item>
+    <item type="id" name="imageButtonRotateCamera">false</item>
+    <item type="id" name="LinearLayoutCameraFrames">false</item>
+    <item type="id" name="imageButton2">false</item>
+    <item type="id" name="scrollView1">false</item>
+    <item type="id" name="imageViewEventViewBandImage">false</item>
+    <item type="id" name="textViewEventViewName">false</item>
+    <item type="id" name="textViewEventViewStage">false</item>
+    <item type="id" name="textViewEventViewTime">false</item>
+    <item type="id" name="buttonEventViewWebsite">false</item>
+    <item type="id" name="buttonEventViewListen">false</item>
+    <item type="id" name="listViewEvents">false</item>
+    <item type="id" name="listViewFood">false</item>
+    <item type="id" name="textViewInfoDescription">false</item>
+    <item type="id" name="listViewInfoList">false</item>
+    <item type="id" name="horizontalScrollViewImageView">false</item>
+    <item type="id" name="linearLayoutImageHolder">false</item>
+    <item type="id" name="imageViewCharlieDaniels">false</item>
+    <item type="id" name="imageViewSpecial">false</item>
+    <item type="id" name="imageViewSpinDoctors">false</item>
+    <item type="id" name="imageViewTheToadies">false</item>
+    <item type="id" name="imageViewSponsor">false</item>
+    <item type="id" name="textViewMainEventViewName">false</item>
+    <item type="id" name="textViewMainAchieveView">false</item>
+    <item type="id" name="buttonEvents">false</item>
+    <item type="id" name="buttonBuyTickets">false</item>
+    <item type="id" name="buttonMap">false</item>
+    <item type="id" name="map">false</item>
+    <item type="id" name="checkBoxMetroPCSAchieve">false</item>
+    <item type="id" name="imageButtonMetroPCS">false</item>
+    <item type="id" name="checkBoxBudLightAchieve">false</item>
+    <item type="id" name="imageButtonBudLight">false</item>
+    <item type="id" name="checkBoxTasteOfTexasAchieve">false</item>
+    <item type="id" name="imageButtonTasteOfTexas">false</item>
+    <item type="id" name="checkBoxCourtyardStageAchieve">false</item>
+    <item type="id" name="imageButtonCourtyard">false</item>
+    <item type="id" name="checkBoxViewpointStageAchieve">false</item>
+    <item type="id" name="imageButtonViewpoint">false</item>
+    <item type="id" name="linearLayoutTwitterLoadingLayout">false</item>
+    <item type="id" name="textViewTwitterLoading">false</item>
+    <item type="id" name="progressBarTwitterLoading">false</item>
+    <item type="id" name="LinearLayoutTwitterHolder">false</item>
+    <item type="id" name="tabSwipePager">false</item>
+    <item type="id" name="timePicker">false</item>
+    <item type="id" name="hour">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="minute">false</item>
+    <item type="id" name="amPm">false</item>
+    <item type="id" name="textViewTwitterName">false</item>
+    <item type="id" name="linearLayoutTwitterBG">false</item>
+    <item type="id" name="imageViewTwitterImagePost">false</item>
+    <item type="id" name="imageViewTwitterIcon">false</item>
+    <item type="id" name="textViewTwitterText">false</item>
+    <item type="id" name="menu_settings">false</item>
+</resources>

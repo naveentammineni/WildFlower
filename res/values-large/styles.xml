@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Holo.Theme.DialogWhenLarge" parent="@style/Holo.Theme.Dialog.FixedSize" />
+    <style name="Holo.Theme.Light.DialogWhenLarge" parent="@style/Holo.Theme.Dialog.Light.FixedSize" />
+</resources>

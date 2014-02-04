@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="dialog_fixed_width_minor">69.99999%</item>
+    <item type="dimen" name="dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="dialog_fixed_height_minor">90.0%</item>
+    <dimen name="preference_screen_header_vertical_padding">32.0dip</dimen>
+    <dimen name="preference_screen_header_padding_side">0.0dip</dimen>
+    <dimen name="preference_icon_minWidth">56.0dip</dimen>
+    <dimen name="preference_screen_side_margin">0.0dip</dimen>
+    <dimen name="preference_screen_side_margin_negative">-4.0dip</dimen>
+    <dimen name="preference_fragment_padding_bottom">16.0dip</dimen>
+    <dimen name="preference_fragment_padding_side">32.0dip</dimen>
+    <dimen name="preference_breadcrumb_paddingLeft">32.0dip</dimen>
+    <dimen name="preference_breadcrumb_paddingRight">32.0dip</dimen>
+</resources>

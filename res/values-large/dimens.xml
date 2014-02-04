@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="abs__dialog_min_width_major">54.999996%</item>
+    <item type="dimen" name="abs__dialog_min_width_minor">79.99999%</item>
+    <dimen name="config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="dialog_min_width_major">54.999996%</item>
+    <item type="dimen" name="dialog_min_width_minor">79.99999%</item>
+</resources>

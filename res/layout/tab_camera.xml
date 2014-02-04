@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayoutCameraViewParent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/LinearLayoutCameraControls" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <SurfaceView android:layout_gravity="center" android:id="@id/surfaceViewCamera" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayoutCameraOverlayViewParent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/LinearLayoutCameraControls" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <SurfaceView android:layout_gravity="center" android:id="@id/surfaceViewCameraOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/LinearLayoutCameraControls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/imageButtonCapturePicture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="@id/imageButtonRotateCamera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_rotate" android:scaleType="centerCrop" android:layout_alignBottom="@id/imageButtonCapturePicture" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutCameraFrames" android:background="#ffffffff" android:layout_width="90.0dip" android:layout_height="0.0dip" android:layout_above="@id/LinearLayoutCameraControls" android:layout_alignParentRight="true">
+        <ImageButton android:id="@id/imageButton2" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/rockinout" android:scaleType="centerCrop" />
+    </LinearLayout>
+</RelativeLayout>

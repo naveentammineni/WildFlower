@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/rownoarrow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:id="@id/imageViewFoodListLayoutItem" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_launcher" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textViewFoodListLayoutName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Large Text" android:lines="1" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewFoodListLayoutDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Small Text" android:lines="1" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

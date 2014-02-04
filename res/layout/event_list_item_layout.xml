@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/imageViewListItem" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_launcher" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textViewListItemName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Dave Mathews Band" android:lines="1" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/textViewListItemLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="at: Main Stage" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

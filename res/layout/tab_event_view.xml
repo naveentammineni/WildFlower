@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <ImageView android:id="@id/imageViewEventViewBandImage" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_launcher" android:scaleType="centerCrop" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center_vertical" android:id="@id/textViewEventViewName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="The Beatles" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/banner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:id="@id/textViewEventViewStage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Singer Songwriter Stage" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:id="@id/textViewEventViewTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <Button android:gravity="left|center" android:id="@id/buttonEventViewWebsite" android:background="@drawable/uibutton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="Website" />
+        <Button android:gravity="left|center" android:id="@id/buttonEventViewListen" android:background="@drawable/uibutton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="Listen" />
+    </LinearLayout>
+</ScrollView>
